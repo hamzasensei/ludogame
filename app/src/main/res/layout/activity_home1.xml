@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/homebg"
+    tools:context=".HomeActivity1">
+
+    <Button
+        android:id="@+id/btn2player"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold|italic"
+        android:text="2 PLAYERS" />
+
+    <Button
+        android:id="@+id/btn4player"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="60dp"
+        android:text="4 PLAYERS" />
+
+    <Button
+        android:id="@+id/btnoffline"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_background"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="120dp"
+        android:text="OFFLINE" />
+
+</RelativeLayout>
